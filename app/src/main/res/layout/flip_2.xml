@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yalantis.flip.sample.views.FontTextView
+        style="@style/TextView.Nickname"
+        android:id="@+id/nickname" />
+
+    <LinearLayout
+        android:layout_below="@+id/nickname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/interestsPrimary">
+
+        <com.yalantis.flip.sample.views.FontTextView
+            style="@style/TextView.Interest"
+            android:id="@+id/interest_1" />
+
+        <!-- ... -->
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

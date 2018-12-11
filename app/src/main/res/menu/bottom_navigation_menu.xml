@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/ic_house"
+        android:icon="@drawable/house4"
+        android:title="">
+    </item>
+
+    <item
+        android:state_pressed="true"
+        android:id="@+id/ic_search1"
+        android:icon="@drawable/search4"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_circle"
+        android:icon="@drawable/share2"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_alert"
+        android:icon="@drawable/heart1"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_android"
+        android:icon="@drawable/user1"
+        android:title="">
+    </item>
+
+
+</menu>
